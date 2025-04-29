@@ -1,8 +1,5 @@
 import { Request, Response } from "express";
 
-const API_KEY = process.env.API_KEY as string;
-
-
 export async function getWeatherHandler(req: Request, res: Response) {
     try {
         const cityRaw = req.query.city;
