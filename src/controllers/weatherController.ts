@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-export async function getWeatherHandler(req: Request, res: Response) {
+export function getWeatherHandler(req: Request, res: Response) {
     try {
         const cityRaw = req.query.city;
         if (!cityRaw) {
