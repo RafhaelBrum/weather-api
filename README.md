@@ -1,6 +1,6 @@
 # 🌦️ Weather API
 
-**roadmap.sh backend project** – https://roadmap.sh/projects/weather-api
+**roadmap.sh backend project** – https://roadmap.sh/projects/weather-api-wrapper-service
 
 A simple RESTful API that fetches and returns weather data for a given city. This project demonstrates how to integrate with a third-party API, implement caching with Redis, and structure an API using best practices.
 
